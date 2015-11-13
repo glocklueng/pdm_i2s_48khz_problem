@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\DevKit407 /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib /IF:\W\COCOX\wRecorder2 /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\core /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_lib\include /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_lib /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_conf /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_boot /IF:\W\COCOX /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\otg /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master /IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\cdc">
+      <source file="..\..\..\usb_conf\usbd_desc.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_def.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_req.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\DevKit407\stm32f4_discovery.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_regs.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_dcd.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\otg\usb_core.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\usb_conf\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\DevKit407\stm32f4_discovery.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\DevKit407\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="14e81b4ddd8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="150d5b7eda8">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\pdm_filter.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\arm_math.h" lastModified="14e81b4ed78">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+         <include file="..\..\..\cmsis\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="150d5aaa874">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_dcd_int.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\otg\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_defines.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\DevKit407\stm32f4_discovery_lcd.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\DevKit407\fonts.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14e81b4d9f0">
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_ioreq.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14e81b4ddd8">
+      </source>
+      <source file="..\..\..\DevKit407\stm32f4_discovery_lcd.c" lastModified="14e81b4e5a8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\DevKit407\stm32f4_discovery.h"/>
+         <include file="..\..\..\DevKit407\stm32f4_discovery_lcd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="150d5b602d2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_core.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_dcd_int.h"/>
+         <include file="..\..\..\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.h" lastModified="14e81b4ddd8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\usb_lib\cdc\usbd_cdc_core.h"/>
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_conf\usb_bsp.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_core.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_regs.h"/>
+         <include file="..\..\..\usb_lib\otg\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="14e81b4e990">
+      </source>
+      <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_conf\usb_bsp.h"/>
+         <include file="..\..\..\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14e81b4ddd8">
+      </source>
+      <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\arm_common_tables.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\cdc\usbd_cdc_core.h"/>
+         <include file="..\..\..\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_req.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\usb_conf\usbd_conf.h" lastModified="14e81b4d9f0">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\usb_conf\usb_conf.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="14e81b4ddd8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\core\usbd_usr.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\DSP\StatisticsFunctions\arm_max_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14e81b4d9f0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_rfft_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="15102722c95">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\usb_lib\core\usbd_usr.h"/>
+         <include file="..\..\..\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\DevKit407\fonts.h" lastModified="14e81b4ddd8">
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_rfft_init_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DevKit407\fonts.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\DevKit407\fonts.h"/>
+      </source>
+      <source file="..\..\..\DSP\CommonTables\arm_common_tables.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DSP\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="14e81b4d9f0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+   </includePath>
+</dependencies>

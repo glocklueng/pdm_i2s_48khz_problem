@@ -1,0 +1,42 @@
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csprojResolveAssemblyReference.cache
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csproj.GenerateResource.Cache
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Users\fr1zer\Downloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csprojResolveAssemblyReference.cache
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csproj.GenerateResource.Cache
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+C:\Download Zone\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.config
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.pdb
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe.manifest
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.application
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.exe
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\bin\Debug\SerialPort Terminal.pdb
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmAbout.resources
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.Properties.Resources.resources
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.frmTerminal.resources
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csproj.GenerateResource.Cache
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.exe.manifest
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPort Terminal.application
+F:\Dowloads\SerialPortTerminal\SerialPortTerminal\obj\Debug\SerialPortTerminal.csprojResolveAssemblyReference.cache

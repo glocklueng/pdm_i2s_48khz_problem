@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -g2 -Wall -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DARM_MATH_CM4 -D__FPU_USED -D__FPU_PRESENT=1 -DHSE_VALUE=8000000 -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\DevKit407 -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib -IF:\W\COCOX\wRecorder2 -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\core -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_lib\include -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_lib -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_conf -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis_boot -IF:\W\COCOX -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\otg -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\cmsis -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master -IF:\W\COCOX\wRecorder2\STM32F4-WAVE-RECORDER-master\usb_lib\cdc">
+      <target file="stm32f4xx_fsmc.o" lastModified="150d5b80500">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="syscalls.o" lastModified="150d5b80885">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="150d5b7fa73">
+         <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="150d5b7fcf0">
+         <source file="..\..\..\DevKit407\stm32f4_discovery.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_cfft_radix4_init_f32.o" lastModified="150d5b80fd0">
+         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="misc.o" lastModified="150d5b80d7e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_max_f32.o" lastModified="150d5b80f26">
+         <source file="..\..\..\DSP\StatisticsFunctions\arm_max_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="150d5b80eb9">
+         <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_req.o" lastModified="150d5b80a61">
+         <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="150d5b80bd7">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="150d5b803fe">
+         <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="150d5b80d09">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="150d5b80621">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_rfft_f32.o" lastModified="150d5b7fb5f">
+         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="150d5b809b3">
+         <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_cmplx_mag_f32.o" lastModified="150d5b8034e">
+         <source file="..\..\..\DSP\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_core.o" lastModified="150d5b7fe16">
+         <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="150d5b7fc1b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="150d5b80074">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="fonts.o" lastModified="150d5b802b8">
+         <source file="..\..\..\DevKit407\fonts.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="150d5b80e20">
+         <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="150d5b7fc71">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="150d5b806fa">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="150d5b80929">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_cfft_radix4_f32.o" lastModified="150d5b7f9ee">
+         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_crc.o" lastModified="150d5b7fd72">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="151027249c0">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="150d5b7eda8"/>
+      </target>
+      <target file="stm32f4_discovery_lcd.o" lastModified="15102723eb9">
+         <source file="..\..\..\DevKit407\stm32f4_discovery_lcd.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="usb_core.o" lastModified="150d5b7f7b3">
+         <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_common_tables.o" lastModified="150d5b7fae2">
+         <source file="..\..\..\DSP\CommonTables\arm_common_tables.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="150d5b7f68a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="150d5b80c91">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="main.o" lastModified="1510272441e">
+         <source file="..\..\..\main.c" lastModified="1510271b26c"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="150d5b807a4">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="150d5b602d2"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="150d5b80b34">
+         <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="14e81b4d9f0"/>
+      </target>
+      <target file="arm_rfft_init_f32.o" lastModified="150d5b80179">
+         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_init_f32.c" lastModified="14e81b4d9f0"/>
+      </target>
+   </processor>
+</history>
