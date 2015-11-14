@@ -141,12 +141,13 @@ void SPI2_IRQHandler(void){
    // PDM_Input_Buffer[InternalBufferSize++] = (uint8_t)app;
     PDM_Input_Buffer[InternalBufferSize++] = /*(uint8_t)*/HTONS(app);
 
+    counter++;
     // Check to prevent overflow condition
     if (InternalBufferSize >= PDM_Input_Buffer_SIZE){
       InternalBufferSize = 0;
 
       volume = 50;
-      counter++;
+      
       PDM_Filter_64_LSB((uint8_t *)PDM_Input_Buffer, (uint16_t *)AudioRecBuf/*PCM_Output_Buffer*/, volume, &Filter);
 
       Data_Status = 1;
